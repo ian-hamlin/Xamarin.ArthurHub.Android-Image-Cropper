@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <Button
+          android:id="@+id/selectImageButton"
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:text="Select an image..."/>
+  <ImageView
+    android:id="@+id/ImageView_image"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:adjustViewBounds="true"
+    android:scaleType="centerInside"/>
+</LinearLayout>

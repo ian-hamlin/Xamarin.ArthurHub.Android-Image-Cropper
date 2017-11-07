@@ -6,4 +6,34 @@
   This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage']/method[@name='getActivityResult' and count(parameter)=1]/parameter[@name='p0']"
+        name="name">intent</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage']/method[@name='activity' and count(parameter)=1]/parameter[@name='p0']"
+        name="name">uri</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage']/method[@name='getCameraIntent' and count(parameter)=2]/parameter[@name='p0']"
+        name="name">context</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage']/method[@name='getCameraIntent' and count(parameter)=2]/parameter[@name='p1']"
+        name="name">outputFileUri</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage']/method[@name='getCameraIntents' and count(parameter)=2]/parameter[@name='p0']"
+        name="name">context</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage']/method[@name='getCameraIntents' and count(parameter)=2]/parameter[@name='p1']"
+        name="name">packageManager</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage']/method[@name='getCaptureImageOutputUri' and count(parameter)=1]/parameter[@name='p0']"
+        name="name">context</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage']/method[@name='getGalleryIntents' and count(parameter)=3]/parameter[@name='p0']"
+        name="name">packageManager</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage']/method[@name='getGalleryIntents' and count(parameter)=3]/parameter[@name='p1']"
+        name="name">action</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage']/method[@name='getGalleryIntents' and count(parameter)=3]/parameter[@name='p2']"
+        name="name">includeDocuments</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage']/method[@name='getPickImageChooserIntent' and count(parameter)=1]/parameter[@name='p0']"
+        name="name">context</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage']/method[@name='getPickImageChooserIntent' and count(parameter)=4]/parameter[@name='p0']"
+        name="name">context</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage']/method[@name='getPickImageChooserIntent' and count(parameter)=4]/parameter[@name='p1']"
+        name="name">title</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage']/method[@name='getPickImageChooserIntent' and count(parameter)=4]/parameter[@name='p2']"
+        name="name">includeDocuments</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage']/method[@name='getPickImageChooserIntent' and count(parameter)=4]/parameter[@name='p3']"
+        name="name">includeCamera</attr>
 </metadata>

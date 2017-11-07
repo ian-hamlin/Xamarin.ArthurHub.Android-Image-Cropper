@@ -65,7 +65,7 @@
             if (requestCode == CropImage.CropImageActivityRequestCode)
             {
                 CropImage.ActivityResult result = CropImage.GetActivityResult(data);
-
+                
                 if (resultCode == Result.Ok)
                 {
                     Uri resultUri = result.Uri;
@@ -76,7 +76,7 @@
                 {
                     // To Do, show something about the error.
                     Exception error = result.Error;
-                    Toast.MakeText(this, error.Message, ToastLength.Long);
+                    Toast.MakeText(this, error.Message, ToastLength.Long).Show();
                 }
             }
 

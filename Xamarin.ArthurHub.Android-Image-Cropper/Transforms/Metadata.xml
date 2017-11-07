@@ -1,11 +1,5 @@
 ﻿<metadata>
-  <!--
-  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
-  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
-  
-  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
-  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
-  -->
+  <!-- CropImage -->
   <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage']/method[@name='getActivityResult' and count(parameter)=1]/parameter[@name='p0']"
         name="name">intent</attr>
   <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage']/method[@name='activity' and count(parameter)=1]/parameter[@name='p0']"
@@ -49,5 +43,9 @@
   <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage']/method[@name='isReadExternalStoragePermissionsRequired' and count(parameter)=2]/parameter[@name='p0']"
         name="name">context</attr>
   <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage']/method[@name='isReadExternalStoragePermissionsRequired' and count(parameter)=2]/parameter[@name='p1']"
+        name="name">uri</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage']/method[@name='isUriRequiresPermissions' and count(parameter)=2]/parameter[@name='p0']"
+        name="name">context</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage']/method[@name='isUriRequiresPermissions' and count(parameter)=2]/parameter[@name='p1']"
         name="name">uri</attr>
 </metadata>

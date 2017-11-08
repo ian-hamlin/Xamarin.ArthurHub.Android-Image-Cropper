@@ -162,4 +162,24 @@
         name="name">snapRadius</attr>
   <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setTouchRadius' and count(parameter)=1]/parameter[@name='p0']"
         name="name">touchRadius</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='start' and count(parameter)=1]/parameter[@name='p0']"
+        name="name">activity</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='start' and count(parameter)=2]/parameter[@name='p0' and @type='android.content.Context']"
+        name="name">context</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='start' and count(parameter)=2]/parameter[@name='p1' and @type='android.app.Fragment']"
+        name="name">fragment</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='start' and count(parameter)=2]/parameter[@name='p0' and @type='android.app.Activity']"
+        name="name">activity</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='start' and count(parameter)=2]/parameter[@name='p1' and @type='java.lang.Class&lt;?&gt;']"
+        name="name">cls</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='start' and count(parameter)=3]/parameter[@name='p0' and @type='android.content.Context']"
+        name="name">context</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='start' and count(parameter)=3]/parameter[@name='p1' and @type='android.app.Fragment']"
+        name="name">fragment</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='start' and count(parameter)=2]/parameter[@name='p1' and @type='android.support.v4.app.Fragment']"
+        name="name">fragment</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='start' and count(parameter)=3]/parameter[@name='p1' and @type='android.support.v4.app.Fragment']"
+        name="name">fragment</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='start' and count(parameter)=3]/parameter[@name='p2' and @type='java.lang.Class&lt;?&gt;']"
+        name="name">cls</attr>
 </metadata>

@@ -154,4 +154,10 @@
         name="name">requestedHeight</attr>
   <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setRequestedSize' and count(parameter)=3]/parameter[@name='p2']"
         name="name">options</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setScaleType' and count(parameter)=1]/parameter[@name='p0']"
+        name="name">scaleType</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setShowCropOverlay' and count(parameter)=1]/parameter[@name='p0']"
+        name="name">showCropOverlay</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setSnapRadius' and count(parameter)=1]/parameter[@name='p0']"
+        name="name">snapRadius</attr>
 </metadata>

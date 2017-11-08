@@ -56,4 +56,30 @@
         name="name">fragment</attr>
   <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage']/method[@name='toOvalBitmap' and count(parameter)=1]/parameter[@name='p0']"
         name="name">bitmap</attr>
+  
+  <!-- CropImage.ActivityBuilder -->
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='getIntent' and count(parameter)=1]/parameter[@name='p0']"
+        name="name">context</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='getIntent' and count(parameter)=2]/parameter[@name='p0']"
+        name="name">context</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='getIntent' and count(parameter)=2]/parameter[@name='p1']"
+        name="name">cls</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setActivityMenuIconColor' and count(parameter)=1]/parameter[@name='p0']"
+        name="name">activityMenuIconColor</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setActivityTitle' and count(parameter)=1]/parameter[@name='p0']"
+        name="name">activityTitle</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setAllowCounterRotation' and count(parameter)=1]/parameter[@name='p0']"
+        name="name">allowCounterRotation</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setAllowFlipping' and count(parameter)=1]/parameter[@name='p0']"
+        name="name">allowFlipping</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setAllowRotation' and count(parameter)=1]/parameter[@name='p0']"
+        name="name">allowRotation</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setAspectRatio' and count(parameter)=2]/parameter[@name='p0']"
+        name="name">aspectRatioX</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setAspectRatio' and count(parameter)=2]/parameter[@name='p1']"
+        name="name">aspectRatioY</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setAutoZoomEnabled' and count(parameter)=1]/parameter[@name='p0']"
+        name="name">autoZoomEnabled</attr>
+<attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setRotationDegrees' and count(parameter)=1]/parameter[@name='p0']"
+        name="name">rotationDegrees</attr>
 </metadata>

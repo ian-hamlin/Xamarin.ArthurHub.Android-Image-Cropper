@@ -96,4 +96,10 @@
         name="name">borderLineColor</attr>
   <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setBorderLineThickness' and count(parameter)=1]/parameter[@name='p0']"
         name="name">borderLineThickness</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setCropMenuCropButtonIcon' and count(parameter)=1]/parameter[@name='p0']"
+        name="name">drawableResource</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setCropMenuCropButtonTitle' and count(parameter)=1]/parameter[@name='p0']"
+        name="name">title</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setCropShape' and count(parameter)=1]/parameter[@name='p0']"
+        name="name">cropShape</attr>
 </metadata>

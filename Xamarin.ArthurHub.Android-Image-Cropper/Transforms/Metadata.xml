@@ -144,4 +144,14 @@
         name="name">outputCompressQuality</attr>
   <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setOutputUri' and count(parameter)=1]/parameter[@name='p0']"
         name="name">uri</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setRequestedSize' and count(parameter)=2]/parameter[@name='p0']"
+        name="name">requestedWidth</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setRequestedSize' and count(parameter)=2]/parameter[@name='p1']"
+        name="name">requestedHeight</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setRequestedSize' and count(parameter)=3]/parameter[@name='p0']"
+        name="name">requestedWidth</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setRequestedSize' and count(parameter)=3]/parameter[@name='p1']"
+        name="name">requestedHeight</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setRequestedSize' and count(parameter)=3]/parameter[@name='p2']"
+        name="name">options</attr>
 </metadata>

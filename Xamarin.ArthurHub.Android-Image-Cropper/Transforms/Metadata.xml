@@ -138,4 +138,10 @@
         name="name">multiTouchEnabled</attr>
   <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setNoOutputImage' and count(parameter)=1]/parameter[@name='p0']"
         name="name">noOutputImage</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setOutputCompressFormat' and count(parameter)=1]/parameter[@name='p0']"
+        name="name">outputCompressFormat</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setOutputCompressQuality' and count(parameter)=1]/parameter[@name='p0']"
+        name="name">outputCompressQuality</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setOutputUri' and count(parameter)=1]/parameter[@name='p0']"
+        name="name">uri</attr>
 </metadata>

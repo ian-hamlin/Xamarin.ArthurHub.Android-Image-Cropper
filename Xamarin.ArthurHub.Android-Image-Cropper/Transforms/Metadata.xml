@@ -182,4 +182,26 @@
         name="name">fragment</attr>
   <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='start' and count(parameter)=3]/parameter[@name='p2' and @type='java.lang.Class&lt;?&gt;']"
         name="name">cls</attr>
+
+  <!-- CropImage.ActivityResult -->
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityResult']/constructor[@name='CropImage.ActivityResult' and count(parameter)=8]/parameter[@name='p0']"
+        name="name">originalUri</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityResult']/constructor[@name='CropImage.ActivityResult' and count(parameter)=8]/parameter[@name='p1']"
+        name="name">uri</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityResult']/constructor[@name='CropImage.ActivityResult' and count(parameter)=8]/parameter[@name='p2']"
+        name="name">error</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityResult']/constructor[@name='CropImage.ActivityResult' and count(parameter)=8]/parameter[@name='p3']"
+        name="name">cropPoints</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityResult']/constructor[@name='CropImage.ActivityResult' and count(parameter)=8]/parameter[@name='p4']"
+        name="name">cropRect</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityResult']/constructor[@name='CropImage.ActivityResult' and count(parameter)=8]/parameter[@name='p5']"
+        name="name">rotation</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityResult']/constructor[@name='CropImage.ActivityResult' and count(parameter)=8]/parameter[@name='p6']"
+        name="name">wholeImageRect</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityResult']/constructor[@name='CropImage.ActivityResult' and count(parameter)=8]/parameter[@name='p7']"
+        name="name">sampleSize</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityResult']/method[@name='writeToParcel' and count(parameter)=2]/parameter[@name='p0']"
+        name="name">destination</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityResult']/method[@name='writeToParcel' and count(parameter)=2]/parameter[@name='p1']"
+        name="name">flags</attr>
 </metadata>

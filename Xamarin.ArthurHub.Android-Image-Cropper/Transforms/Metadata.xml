@@ -120,4 +120,22 @@
         name="name">initialCropWindowRectangle</attr>
   <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setInitialRotation' and count(parameter)=1]/parameter[@name='p0']"
         name="name">initialRotation</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setMaxCropResultSize' and count(parameter)=2]/parameter[@name='p0']"
+        name="name">maxCropResultWidth</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setMaxCropResultSize' and count(parameter)=2]/parameter[@name='p1']"
+        name="name">maxCropResultHeight</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setMaxZoom' and count(parameter)=1]/parameter[@name='p0']"
+        name="name">maxZoom</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setMinCropResultSize' and count(parameter)=2]/parameter[@name='p0']"
+        name="name">minCropResultWidth</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setMinCropResultSize' and count(parameter)=2]/parameter[@name='p1']"
+        name="name">minCropResultHeight</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setMinCropWindowSize' and count(parameter)=2]/parameter[@name='p0']"
+        name="name">minCropWindowWidth</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setMinCropWindowSize' and count(parameter)=2]/parameter[@name='p1']"
+        name="name">minCropWindowHeight</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setMultiTouchEnabled' and count(parameter)=1]/parameter[@name='p0']"
+        name="name">multiTouchEnabled</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setNoOutputImage' and count(parameter)=1]/parameter[@name='p0']"
+        name="name">noOutputImage</attr>
 </metadata>

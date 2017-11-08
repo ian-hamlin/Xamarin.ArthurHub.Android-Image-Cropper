@@ -108,4 +108,16 @@
         name="name">flipHorizontally</attr>
   <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setFlipVertically' and count(parameter)=1]/parameter[@name='p0']"
         name="name">flipVertically</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setGuidelines' and count(parameter)=1]/parameter[@name='p0']"
+        name="name">guidelines</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setGuidelinesColor' and count(parameter)=1]/parameter[@name='p0']"
+        name="name">guidelinesColor</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setGuidelinesThickness' and count(parameter)=1]/parameter[@name='p0']"
+        name="name">guidelinesThickness</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setInitialCropWindowPaddingRatio' and count(parameter)=1]/parameter[@name='p0']"
+        name="name">initialCropWindowPaddingRatio</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setInitialCropWindowRectangle' and count(parameter)=1]/parameter[@name='p0']"
+        name="name">initialCropWindowRectangle</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setInitialRotation' and count(parameter)=1]/parameter[@name='p0']"
+        name="name">initialRotation</attr>
 </metadata>

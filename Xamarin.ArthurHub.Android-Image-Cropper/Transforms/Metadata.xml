@@ -102,4 +102,10 @@
         name="name">title</attr>
   <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setCropShape' and count(parameter)=1]/parameter[@name='p0']"
         name="name">cropShape</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setFixAspectRatio' and count(parameter)=1]/parameter[@name='p0']"
+        name="name">fixAspectRatio</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setFlipHorizontally' and count(parameter)=1]/parameter[@name='p0']"
+        name="name">flipHorizontally</attr>
+  <attr path="/api/package[@name='com.theartofdev.edmodo.cropper']/class[@name='CropImage.ActivityBuilder']/method[@name='setFlipVertically' and count(parameter)=1]/parameter[@name='p0']"
+        name="name">flipVertically</attr>
 </metadata>

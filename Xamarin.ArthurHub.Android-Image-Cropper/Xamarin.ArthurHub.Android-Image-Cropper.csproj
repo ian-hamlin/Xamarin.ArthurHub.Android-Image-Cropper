@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\NuGet.Build.Packaging.0.2.0\build\NuGet.Build.Packaging.props" Condition="Exists('..\packages\NuGet.Build.Packaging.0.2.0\build\NuGet.Build.Packaging.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -16,6 +17,20 @@
     <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageId>XamarinAndroid_Image_Cropper</PackageId>
+    <PackageVersion>2.7.0</PackageVersion>
+    <Authors>Ian Hamlin, Anthony Njuguna</Authors>
+    <Owners>Ian Hamlin</Owners>
+    <PackageProjectUrl>https://github.com/ian-hamlin/Xamarin.ArthurHub.Android-Image-Cropper</PackageProjectUrl>
+    <PackageReleaseNotes>Based on Android Image Cropper 2.7.0
+-  Android Target framework 8.1 v27 </PackageReleaseNotes>
+    <Summary>Xamarin Android Image Cropper</Summary>
+    <PackageTags>xamarin,xamarin-android,android,image-cropper, image, crop, Android Image cropper, android-image-cropper</PackageTags>
+    <Title>Xamarin Android Image Cropper</Title>
+    <Description>A Xamarin binding of the Android Image Cropper library based on ArthurHub's work 
+
+ https://github.com/ArthurHub/Android-Image-Cropper</Description>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -132,4 +147,5 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  <Import Project="..\packages\NuGet.Build.Packaging.0.2.0\build\NuGet.Build.Packaging.targets" Condition="Exists('..\packages\NuGet.Build.Packaging.0.2.0\build\NuGet.Build.Packaging.targets')" />
 </Project>

@@ -2,12 +2,12 @@
 Xamarin bindings for https://github.com/ArthurHub/Android-Image-Cropper
 
 # Versions
-*1.1.0*
+*2.7.0*
 * ArthurHub/Android-Image-Cropper version 2.7.0
 * Compiled against Android 8.1
 * Xamarin support libraries 27.1.1
 
-*1.0.0*
+*2.5.1*
 * ArthurHub/Android-Image-Cropper version 2.5.1
 * Compiled against Android 8
 * Xamarin support libraries 26.1.0.1

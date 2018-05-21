@@ -12,5 +12,9 @@ Xamarin bindings for https://github.com/ArthurHub/Android-Image-Cropper
 * Compiled against Android 8
 * Xamarin support libraries 26.1.0.1
 
+# NuGet
+
+Install-Package XamarinAndroid_Image_Cropper -Version 2.7.0
+
 # Demo
 ![Crop Demo](https://github.com/ian-hamlin/Xamarin.ArthurHub.Android-Image-Cropper/blob/master/cropper_xamarin.gif)
